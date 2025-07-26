@@ -25,6 +25,10 @@
                 <h3 style="margin-left: -50px;">Register with ReyMotoParts</h3>
                 <p class="subtitle" style="margin-left: -50px;">Reserve the Parts You Need, Pick Up When You're Ready.</p>
                 <form id="login-form">
+                  <div class="input-group">
+                        <label for="password">Name</label>
+                        <input type="text" id="username" required placeholder="User Name">
+                    </div>
                     <div class="input-group">
                         <label for="email">Email</label>
                         <input type="email" id="email" required placeholder="your.email@example.com">
@@ -33,9 +37,9 @@
                         <label for="password">Password</label>
                         <input type="password" id="password" required placeholder="Enter your password">
                     </div>
-                    <button type="submit" class="btn-primary">Login</button>
+                    <button type="submit" class="btn-primary"><a href="login.php">Create Account</a></button>
                 </form>
-                <p class="auth-switch">Don't have an account? <a href="register.html">Sign up</a></p>
+                <p class="auth-switch">Don't have an account? <a href="regester_user.php">Sign Up</a></p>
             </div>
         <div class="auth-image-side" style="background-image: url('asset/bgregester.png'); max-width: 100%; height: 90vh; background-size: cover; background-position: left;">
             </div>
