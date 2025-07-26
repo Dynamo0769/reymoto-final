@@ -1,0 +1,109 @@
+body {
+    font-family: 'Crimson Text', serif;
+    
+    
+    color: #ffffff; /* Light text color */
+    background-color: #110202;
+}
+h1, h2, h3 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 1000; /* Bold for headers */
+}
+
+.container {
+    min-height: 50vh; /* Equivalent to min-h-screen */
+    
+    
+    
+    background-color: #110202; /* Equivalent to bg-neutral-900 */
+    color: #D1D5DB; /* Equivalent to text-gray-200 */
+    font-family: 'Crimson', serif; /* Equivalent to font-serif */
+    max-width: 100%; /* Equivalent to max-w-2xl */
+    padding: 40px; /* Equivalent to p-6 */
+    background-color: rgb(20, 18, 18); /* Equivalent to bg-neutral-800 */
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.about-title {
+    background: rgba(41, 37, 37, 0.3); /* White with 30% opacity */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent */
+    font-size: 2.5em; /* Adjust font size */
+    margin: 10px 0; /* Spacing */
+    background: rgba(255, 255, 255, 0.85); /* White with 85% opacity */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent */
+    font-size: 50px; /* Adjust font size */
+    margin: 20px 0; /* Spacing */
+    display: grid;
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+    max-height: 143px;
+    max-width: 1064;
+    padding: 5px;
+    
+}
+.content2 {
+    max-width: 700px; /* Equivalent to max-w-2xl */
+    text-align: left; /* Center the text */
+    
+    
+    
+    
+    
+}
+.H1 {
+    font-size: 20px;
+}
+.content2 div {
+    margin-bottom: 60px; /* Spacing between features */
+}
+.content1 div {
+    margin-bottom: 60px; /* Spacing between features */
+}
+
+    
+.icon23 {
+    text-align: right;
+    margin-right: -100%;
+}
+.image1 {
+    margin-top: -60px;
+}
+
+
+
+
+.footer-section p, .footer-section ul {
+    margin: 0.5rem 0;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover {
+    color: var(--primary-color);
+}
+.footer-section i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}

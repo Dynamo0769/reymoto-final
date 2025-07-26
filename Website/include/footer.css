@@ -1,0 +1,26 @@
+.footer-section p, .footer-section ul {
+    margin: 0.5rem 0;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover {
+    color: var(--primary-color);
+}
+.footer-section i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
